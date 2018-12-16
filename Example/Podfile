@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JVCALayerExtensions_Tests' do
+  pod 'JVCALayerExtensions', :path => '../'
+  
+  
+end

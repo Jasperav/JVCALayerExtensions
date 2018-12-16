@@ -1,0 +1,16 @@
+PODS:
+  - JVCALayerExtensions (0.1.0)
+
+DEPENDENCIES:
+  - JVCALayerExtensions (from `../`)
+
+EXTERNAL SOURCES:
+  JVCALayerExtensions:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JVCALayerExtensions: df222758650e822d51f8c549959e9f8b6d6dc28d
+
+PODFILE CHECKSUM: d0d9cef623cb6ca4a0d5cd5d8bd5473329ceaade
+
+COCOAPODS: 1.6.0.beta.1

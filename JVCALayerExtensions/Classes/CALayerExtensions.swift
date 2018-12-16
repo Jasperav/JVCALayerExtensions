@@ -12,7 +12,7 @@ public extension CALayer {
         animation.toValue = CGFloat(.pi * 2.0)
         animation.duration = duration360Degress
         animation.repeatCount = repeatCount
-        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+        animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear)
         animation.isRemovedOnCompletion = false
         add(animation, forKey: CALayer.rotationKey)
     }
@@ -23,7 +23,7 @@ public extension CALayer {
         animation.fromValue = fromValue
         animation.toValue = toValue
         animation.duration = duration
-        animation.fillMode = kCAFillModeForwards
+        animation.fillMode = CAMediaTimingFillMode.forwards
         animation.beginTime = beginTime
         animation.isRemovedOnCompletion = false
         
